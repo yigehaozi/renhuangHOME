@@ -1,20 +1,88 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 人皇 | Ren Huang
 
-# Run and deploy your AI Studio app
+一个优雅的个人主页，展示域名收藏、项目作品和联系方式。
 
-This contains everything you need to run your app locally.
+## ✨ 特性
 
-View your app in AI Studio: https://ai.studio/apps/drive/1B68L7H5bFXd9TQRrOxI7RSzq0b2P4OQE
+- 🎨 **现代设计** - 简洁优雅的界面设计
+- 🌓 **深色模式** - 支持亮色/深色主题切换，无刷新闪烁
+- 🌍 **双语支持** - 中文/英文界面切换
+- 📱 **响应式布局** - 完美适配各种设备
+- ⚡ **高性能** - 基于 Vite + React 构建
+- 🎭 **流畅动画** - 精心设计的交互动画
 
-## Run Locally
+## 🚀 快速开始
 
-**Prerequisites:**  Node.js
+### 前置要求
 
+- Node.js 16+
+- npm 或 yarn
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 本地运行
+
+1. 克隆仓库
+   ```bash
+   git clone https://github.com/yigehaozi/renhuangHOME.git
+   cd renhuangHOME
+   ```
+
+2. 安装依赖
+   ```bash
+   npm install
+   ```
+
+3. 启动开发服务器
+   ```bash
+   npm run dev
+   ```
+
+4. 在浏览器中打开 `http://localhost:5173`
+
+### 构建生产版本
+
+```bash
+npm run build
+```
+
+构建产物将生成在 `dist` 目录中。
+
+## 📁 项目结构
+
+```
+├── components/          # React 组件
+│   ├── Hero.tsx        # 首屏组件
+│   ├── DomainCard.tsx  # 域名卡片
+│   ├── ProjectCard.tsx # 项目卡片
+│   └── ...
+├── constants.tsx       # 常量配置（域名、项目数据等）
+├── types.ts           # TypeScript 类型定义
+├── App.tsx            # 主应用组件
+├── index.html         # HTML 模板
+└── index.tsx          # 应用入口
+
+```
+
+## 🎨 技术栈
+
+- **框架**: React 19
+- **构建工具**: Vite
+- **样式**: Tailwind CSS
+- **图标**: Lucide React
+- **语言**: TypeScript
+
+## 📝 自定义内容
+
+编辑 `constants.tsx` 文件来修改：
+- 个人信息
+- 域名收藏
+- 项目展示
+- 联系方式
+
+## 📄 License
+
+MIT License
+
+---
+
+Made with ❤️ by 人皇
+
